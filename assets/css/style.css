@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Commissioner&family=Josefin+Sans:wght@300&display=swap');
+
+/* font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+* { margin: 0;
+    padding: 0;
+
+    font-family: 'Alata', sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body {
+    --very-dark-blue: #1f3f5b;
+    --docwidth: 90%;
+    /* Définissez la valeur de --docwidth selon vos besoins */
+}
+img,
+input {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.header-photo {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Styling pour le logo */
+.logo {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 20px; /* Ajustez la position verticale selon vos besoins */
+    left: 20px; /* Ajustez la position horizontale selon vos besoins */
+    z-index: 2;
+
+}
+
+/* Styling pour le menu burger */
+.burger-menu {
+    display: inline-block;
+    cursor: pointer;
+    width: 20px;
+    height: auto;
+        position: absolute;
+        top: 20px; /* Ajustez la position verticale selon vos besoins */
+        right: 20px; /* Ajustez la position horizontale selon vos besoins */
+        z-index: 2;
+}
+
+
+
+
+.block {
+    width: var(--docwidth);
+    height:60vh;
+    margin: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #000;
+    display: flex;
+   
+   
+}
