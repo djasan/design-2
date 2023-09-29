@@ -61,7 +61,29 @@ input {
         right: 20px; /* Ajustez la position horizontale selon vos besoins */
         z-index: 2;
 }
+#menu{
+ 
+    list-style-type: none;
+   
+    margin: auto;
+    padding: 4rem 0; 
+}
 
+
+
+
+#check {
+    display: none;
+}
+#check:checked~#inner-menu {
+    display: flex;
+    flex-direction: column;
+    width: var(--docwidth);
+    margin: auto;
+}
+#check:checked~label>img {
+    content: url(../images/icon-close-modal.svg);
+}
 
 
 
